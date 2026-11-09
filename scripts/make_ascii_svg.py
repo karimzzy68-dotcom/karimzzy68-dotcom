@@ -7,17 +7,18 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-prepped.png")
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "rayat-ascii.svg")
 
-COLS = int(os.environ.get("COLS", 180))
+COLS = int(os.environ.get("COLS", 170))
 ART_W_TARGET = 800
 CELL_W = ART_W_TARGET / COLS
 CELL_H = CELL_W * 15 / 8
 ROWS = round(COLS * 8 / 15)
 RAMP = " .`:-=+*cs#%@"
 
-CONTRAST = 1.15
-BRIGHTNESS = 1.05
-GAMMA = 1.12
-WHITE_FLOOR = 0.82
+# Balanced lighting parameters
+CONTRAST = 1.10
+BRIGHTNESS = 1.02
+GAMMA = 1.15
+WHITE_FLOOR = 0.84
 
 PAD = 20
 TITLEBAR_H = 30
@@ -64,8 +65,7 @@ art_top = TITLEBAR_H + PAD * 0.35
 parts = []
 parts.append(
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{CANVAS_W}" height="{CANVAS_H}" '
-    f'viewBox="0 0 {CANVAS_W} {CANVAS_H}" font-family="ui-monospace, SFMono-Regular, '
-    f'Menlo, Consolas, monospace">'
+    f'viewBox="0 0 {CANVAS_W} {CANVAS_H}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">'
 )
 parts.append('<defs>'
              f'<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">'
@@ -73,14 +73,12 @@ parts.append('<defs>'
              f'</linearGradient></defs>')
 
 parts.append(f'<rect width="{CANVAS_W}" height="{CANVAS_H}" rx="12" fill="url(#bg)"/>')
-parts.append(f'<rect x="0.5" y="0.5" width="{CANVAS_W-1}" height="{CANVAS_H-1}" rx="12" '
-             f'fill="none" stroke="{FRAME}" stroke-width="1"/>')
-
+parts.append(f'<rect x="0.5" y="0.5" width="{CANVAS_W-1}" height="{CANVAS_H-1}" rx="12" fill="none" stroke="{FRAME}" stroke-width="1"/>')
 parts.append(f'<line x1="0" y1="{TITLEBAR_H}" x2="{CANVAS_W}" y2="{TITLEBAR_H}" stroke="{FRAME}"/>')
+
 for i, dotcol in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
     parts.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dotcol}"/>')
-parts.append(f'<text x="{CANVAS_W/2}" y="{TITLEBAR_H/2 + 4}" fill="{TITLE_TEXT}" font-size="12" '
-             f'text-anchor="middle">rayat@github: ~$ ./portrait.sh</text>')
+parts.append(f'<text x="{CANVAS_W/2}" y="{TITLEBAR_H/2 + 4}" fill="{TITLE_TEXT}" font-size="12" text-anchor="middle">rayat@github: ~$ ./portrait.sh</text>')
 
 font_size = CELL_H * 0.86
 for ry, line in enumerate(rows_txt):
@@ -88,8 +86,7 @@ for ry, line in enumerate(rows_txt):
     row_y = art_top + ry * CELL_H
     delay = ry * STAGGER
     safe = html.escape(line)
-    text = (f'<text xml:space="preserve" x="{PAD}" y="{y:.1f}" fill="{INK}" '
-            f'font-size="{font_size:.1f}" textLength="{ART_W}" lengthAdjust="spacing">{safe}</text>')
+    text = (f'<text xml:space="preserve" x="{PAD}" y="{y:.1f}" fill="{INK}" font-size="{font_size:.1f}" textLength="{ART_W}" lengthAdjust="spacing">{safe}</text>')
 
     if STATIC:
         parts.append(text)
@@ -97,14 +94,12 @@ for ry, line in enumerate(rows_txt):
 
     parts.append(
         f'<clipPath id="r{ry}"><rect x="{PAD}" y="{row_y:.1f}" height="{CELL_H}" width="0">'
-        f'<animate attributeName="width" from="0" to="{ART_W}" begin="{delay:.3f}s" '
-        f'dur="{ROW_DUR:.2f}s" fill="freeze"/></rect></clipPath>'
+        f'<animate attributeName="width" from="0" to="{ART_W}" begin="{delay:.3f}s" dur="{ROW_DUR:.2f}s" fill="freeze"/></rect></clipPath>'
     )
     parts.append(f'<g clip-path="url(#r{ry})">{text}</g>')
     parts.append(
         f'<rect y="{row_y+1:.1f}" width="{CELL_W}" height="{CELL_H-2}" fill="{CURSOR}" opacity="0">'
-        f'<animate attributeName="x" from="{PAD}" to="{PAD+ART_W}" begin="{delay:.3f}s" '
-        f'dur="{ROW_DUR:.2f}s" fill="freeze"/>'
+        f'<animate attributeName="x" from="{PAD}" to="{PAD+ART_W}" begin="{delay:.3f}s" dur="{ROW_DUR:.2f}s" fill="freeze"/>'
         f'<set attributeName="opacity" to="0.85" begin="{delay:.3f}s"/>'
         f'<set attributeName="opacity" to="0" begin="{delay+ROW_DUR:.3f}s"/></rect>'
     )
@@ -112,12 +107,11 @@ for ry, line in enumerate(rows_txt):
 status_line_y = TITLEBAR_H + ART_H + PAD * 0.35
 status_y = status_line_y + 19
 parts.append(f'<line x1="0" y1="{status_line_y:.1f}" x2="{CANVAS_W}" y2="{status_line_y:.1f}" stroke="{FRAME}"/>')
-parts.append(f'<text x="{PAD}" y="{status_y:.1f}" fill="{TITLE_TEXT}" font-size="13">'
-             f'rayat@github:~$ whoami <tspan fill="{INK}">Sheikh Rayat Karim</tspan></text>')
+parts.append(f'<text x="{PAD}" y="{status_y:.1f}" fill="{TITLE_TEXT}" font-size="13">rayat@github:~$ whoami <tspan fill="{INK}">Sheikh Rayat Karim</tspan></text>')
+
 status_chars = len("rayat@github:~$ whoami Sheikh Rayat Karim ")
 parts.append(f'<rect x="{PAD + status_chars * 13 * 0.6:.1f}" y="{status_y-12:.1f}" width="8" height="14" fill="{INK}">'
-             f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" '
-             f'dur="1s" repeatCount="indefinite"/></rect>')
+             f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/></rect>')
 
 parts.append("</svg>")
 svg = "".join(parts)
