@@ -1,75 +1,42 @@
 <div align="center">
 
-# Hi, I'm Sheikh Rayat Karim 👋
-### Co-Founder & CTO at [Sapphire Lead](https://sapphirelead.com) · Full-Stack Architect · AI Systems Builder
+<!--  animated contribution graph: real data, boxes reveal cell by cell
+     (regenerated daily by .github/workflows/update-profile-art.yml) -->
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sheikh_Rayat_Karim-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sheikh-rayat-karim/)
-[![Website](https://img.shields.io/badge/Company-Sapphire_Lead-14b8a6?style=for-the-badge&logo=safari)](https://sapphirelead.com)
-[![Directory](https://img.shields.io/badge/Org_Chart-The_Org-black?style=for-the-badge)](https://theorg.com/org/sapphire-lead/person/sheikh-rayat-karim)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-ea4335?style=for-the-badge&logo=gmail)](mailto:appointment.sapphirelead@gmail.com)
+<h3><code>rayat@github ~ $ ./contributions.sh</code></h3>
 
-<p align="center">
-  <em>Connecting technology, content, and customer acquisition into high-converting growth systems.</em>
-</p>
+<img src="./contrib-heatmap.svg" width="860" alt="Sheikh Rayat Karim's GitHub contribution graph — auto-refreshed daily" />
 
-</div>
+<br>
+<br>
 
----
+<!-- ascii portrait (left) + streak/numbers card (right). both svgs are
+     840x880 so equal widths give equal heights.
+     portrait: python scripts/make_ascii_svg.py
+     stats:    python scripts/render_stats_svg.py (same daily workflow) -->
 
-### 🚀 About Me
+<h3><code>rayat@github ~ $ whoami</code></h3>
 
-- 💼 **Co-Founder & CTO** at **Sapphire Lead** (Dhaka, Bangladesh), engineering growth pipelines and digital platforms for modern brands.
-- 🛠️ **Full-Stack & Systems**: Architecting responsive web applications, real-time analytics engines, and resilient backend pipelines with **TypeScript**, **React 19**, and **Tailwind CSS**.
-- 🤖 **AI Automation & Voice**: Building voice-first agentic associates with **ElevenLabs**, automated video production pipelines, and multi-service API workflows.
-- 🎯 **Philosophy**: Code is only part of the solution—clarity of the offer, intentional user experience, and seamless execution are what drive real outcomes.
+<table>
+<tr>
+<td valign="top"><img src="./rayat-ascii.svg" width="420" alt="Sheikh Rayat Karim — ASCII portrait" /></td>
+<td valign="top"><img src="./stats.svg" width="420" alt="Sheikh Rayat Karim's GitHub streak and contribution stats — auto-refreshed daily" /></td>
+</tr>
+</table>
 
----
+<br>
+<br>
 
-### 🌟 Featured Repositories
+<h3><code>rayat@github ~ $ ./links.sh</code></h3>
 
-| Repository | Tech Stack | Highlights |
-| :--- | :--- | :--- |
-| **[atelier-nine-voice-sales-rep](https://github.com/karimzzy68-dotcom/atelier-nine-voice-sales-rep)** | Node.js, ElevenLabs Conversational AI, WebSockets | Voice-first interactive AI stylist and sales associate with real-time interruptible speech. |
-| **[team-ops-dashboard](https://github.com/karimzzy68-dotcom/team-ops-dashboard)** | React 19, TypeScript, Vite, Tailwind CSS | Convix Agency Operations Platform with real-time KPI gauges, target tracking, and video metrics. |
+<p><b>Co-Founder & CTO at <a href="https://sapphirelead.com">Sapphire Lead</a> · Full-Stack Architect · AI Systems Builder</b></p>
 
----
+[![Company](https://img.shields.io/badge/Company-Sapphire_Lead-0d1117?style=for-the-badge&logo=safari&logoColor=white)](https://sapphirelead.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sheikh--rayat--karim-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sheikh-rayat-karim/)
+[![Instagram](https://img.shields.io/badge/Instagram-karimzy__-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/karimzy_/)
+[![Directory](https://img.shields.io/badge/Directory-The_Org-black?style=for-the-badge&logo=theorg&logoColor=white)](https://theorg.com/org/sapphire-lead/person/sheikh-rayat-karim)
+[![Email](https://img.shields.io/badge/Contact-Get_in_Touch-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:appointment.sapphirelead@gmail.com)
 
-### 💻 Tech Stack & Toolkit
+<br>
 
-```
-Languages     : TypeScript, JavaScript, Python, HTML5, CSS3, SQL
-Frontend      : React 19, Next.js, Vite, Tailwind CSS, Lucide
-Backend & API : Node.js, Express, REST APIs, WebSockets, Webhooks
-AI & Voice    : ElevenLabs Conversational AI, Claude Skills, OpenAI APIs
-DevOps & Cloud: Git, GitHub Actions, Netlify, Vercel
-```
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-
-</div>
-
----
-
-### 📊 GitHub Activity & Metrics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=karimzzy68-dotcom&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-<br />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karimzzy68-dotcom&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-
-</div>
-
----
-
-<div align="center">
-  <sub>Built with care & designed for high impact · © Sheikh Rayat Karim</sub>
 </div>

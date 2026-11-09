@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+save_img.py
+source-photo.jpg
+source-photo.png
+.DS_Store
