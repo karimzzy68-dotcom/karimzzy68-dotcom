@@ -19,7 +19,7 @@
 
 <table>
 <tr>
-<td valign="top"><img src="https://raw.githubusercontent.com/karimzzy68-dotcom/karimzzy68-dotcom/main/rayat-ascii.svg" width="420" alt="Sheikh Rayat Karim — ASCII portrait" /></td>
+<td valign="top"><img src="https://raw.githubusercontent.com/karimzzy68-dotcom/karimzzy68-dotcom/main/rayat-ascii.svg?v=2" width="420" alt="Sheikh Rayat Karim — ASCII portrait" /></td>
 <td valign="top"><img src="https://raw.githubusercontent.com/karimzzy68-dotcom/karimzzy68-dotcom/main/stats.svg" width="420" alt="Sheikh Rayat Karim's GitHub streak and contribution stats — auto-refreshed daily" /></td>
 </tr>
 </table>
