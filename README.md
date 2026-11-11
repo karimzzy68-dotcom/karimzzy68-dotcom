@@ -29,21 +29,49 @@
 
 <h3><code>rayat@github ~ $ ./featured-systems.sh</code></h3>
 
-<p>Flagship engineering projects, AI agent workflows, and production platforms.</p>
+<p>Flagship engineering projects, AI agent workflows, and production systems.</p>
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
+<h4>💎 <a href="https://github.com/karimzzy68-dotcom/sapphire-notch">sapphire-notch</a></h4>
+<p><b>Dynamic Island Command Center & Agent Monitor</b></p>
+<p>Windows desktop hub with offline Whisper voice dictation, meeting copilot, AI chat, and real-time coding-agent status monitoring.</p>
+<p><code>.NET 8 WPF</code> · <code>C#</code> · <code>Whisper AI</code> · <code>Audio Routing</code> · <code>Copilot</code></p>
+</td>
+<td width="50%" valign="top">
+<h4>⚡ <a href="https://github.com/karimzzy68-dotcom/cold-outreach-engine">cold-outreach-engine</a></h4>
+<p><b>Self-Hosted AI Cold Email & Warm-Up Platform</b></p>
+<p>Production outbound delivery engine featuring human-paced sending rhythms, automated inbox warm-up, and Gemini LLM personalization.</p>
+<p><code>FastAPI</code> · <code>Python</code> · <code>SQLite</code> · <code>Gemini API</code> · <code>Automation</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4>🎨 <a href="https://github.com/karimzzy68-dotcom/static-design-automation">static-design-automation</a></h4>
+<p><b>Agent-Driven Ad Creative Production Pipeline</b></p>
+<p>Autonomous advertising pipeline supporting resumable batch execution, reference image isolation, and creative visual quality gates.</p>
+<p><code>Python</code> · <code>Computer Vision</code> · <code>Generative AI</code> · <code>Quality Gates</code></p>
+</td>
+<td width="50%" valign="top">
 <h4>🎙️ <a href="https://github.com/karimzzy68-dotcom/atelier-nine-voice-sales-rep">atelier-nine-voice-sales-rep</a></h4>
 <p><b>Voice-First AI Fashion Stylist & Sales Associate</b></p>
 <p>Low-latency conversational agent delivering real-time style consultations, catalog recommendations, and automated checkout routing.</p>
-<p><code>ElevenLabs Conversational AI</code> · <code>WebSockets</code> · <code>Node.js</code> · <code>Tailwind</code></p>
+<p><code>ElevenLabs AI</code> · <code>WebSockets</code> · <code>Node.js</code> · <code>Tailwind</code></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
-<h4>⚡ <a href="https://github.com/karimzzy68-dotcom/team-ops-dashboard">team-ops-dashboard</a></h4>
+<h4>📊 <a href="https://github.com/karimzzy68-dotcom/team-ops-dashboard">team-ops-dashboard</a></h4>
 <p><b>Agency Operations & Performance Analytics Platform</b></p>
 <p>High-throughput operations suite tracking team velocity, client KPIs, real-time gauges, and video content analytics.</p>
 <p><code>React 19</code> · <code>TypeScript</code> · <code>Vite</code> · <code>Lucide</code> · <code>Tailwind CSS</code></p>
+</td>
+<td width="50%" valign="top">
+<h4>🔧 <a href="https://github.com/karimzzy68-dotcom/video-edit-codex-port">video-edit-codex-port</a></h4>
+<p><b>Agent Skill Adapter & Verification Harness</b></p>
+<p>Cross-platform adapter and verification test harness porting Claude Code video-editing capabilities to OpenAI Codex on Windows.</p>
+<p><code>OpenAI Codex</code> · <code>Claude Code</code> · <code>Python</code> · <code>Skill Harness</code></p>
 </td>
 </tr>
 </table>
@@ -55,11 +83,14 @@
 
 <p>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" />
+<img src="https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
 <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/ElevenLabs_AI-000000?style=flat-square&logo=openai&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
