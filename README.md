@@ -27,6 +27,48 @@
 <br>
 <br>
 
+<h3><code>rayat@github ~ $ ./featured-systems.sh</code></h3>
+
+<p>Flagship engineering projects, AI agent workflows, and production platforms.</p>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<h4>🎙️ <a href="https://github.com/karimzzy68-dotcom/atelier-nine-voice-sales-rep">atelier-nine-voice-sales-rep</a></h4>
+<p><b>Voice-First AI Fashion Stylist & Sales Associate</b></p>
+<p>Low-latency conversational agent delivering real-time style consultations, catalog recommendations, and automated checkout routing.</p>
+<p><code>ElevenLabs Conversational AI</code> · <code>WebSockets</code> · <code>Node.js</code> · <code>Tailwind</code></p>
+</td>
+<td width="50%" valign="top">
+<h4>⚡ <a href="https://github.com/karimzzy68-dotcom/team-ops-dashboard">team-ops-dashboard</a></h4>
+<p><b>Agency Operations & Performance Analytics Platform</b></p>
+<p>High-throughput operations suite tracking team velocity, client KPIs, real-time gauges, and video content analytics.</p>
+<p><code>React 19</code> · <code>TypeScript</code> · <code>Vite</code> · <code>Lucide</code> · <code>Tailwind CSS</code></p>
+</td>
+</tr>
+</table>
+
+<br>
+<br>
+
+<h3><code>rayat@github ~ $ ./tech-stack.sh</code></h3>
+
+<p>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/ElevenLabs_AI-000000?style=flat-square&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+</p>
+
+<br>
+<br>
+
 <h3><code>rayat@github ~ $ ./links.sh</code></h3>
 
 <p><b>Co-Founder & CTO at <a href="https://sapphirelead.com">Sapphire Lead</a> · Full-Stack Architect · AI Systems Builder</b></p>
